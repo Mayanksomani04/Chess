@@ -1,0 +1,139 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    /* flex-wrap: wrap-reverse; */
+}
+
+.chess {
+    height: 82vmin;
+    width: 82vmin;
+    display: grid;
+    justify-content: row;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    border: solid 1vmin black;
+    
+    /* opacity:0 ;
+    transition: 900ms ease-in-out; */
+
+}
+.checkbox{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    height: 10vmin;
+    width: 10vmin;
+}
+/* .chess-board{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+/* .startingscreen{
+    background-color: darkgrey;
+    border-radius: 2.5vmin;
+    width: 80vmin;
+    height: max-content;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    transition: 500ms ease-in-out;
+}
+.nameinput{
+    width: 40vmin;
+} */
+.black_rook::before {
+    content: url(BlackRook.png);
+}
+
+.black_knight::before {
+    content: url(BlackKnight.png);
+}
+
+.black_bishop::before {
+    content: url(BlackBishop.png);
+}
+
+.black_queen::before {
+    content: url(BlackQueen.png);
+}
+
+.black_king::before {
+    content: url(BlackKing.png);
+}
+
+.black_bishop::before {
+    content: url(BlackBishop.png);
+}
+
+.black_knight::before {
+    content: url(BlackKnight.png);
+}
+
+.black_rook::before {
+    content: url(BlackRook.png);
+}
+
+.white_rook::before {
+    content: url(WhiteRook.png);
+}
+
+.white_knight::before {
+    content: url(WhiteKnight.png);
+}
+
+.white_bishop::before {
+    content: url(WhiteBishop.png);
+}
+
+.white_queen::before {
+    content: url(WhiteQueen.png);
+}
+
+.white_king::before {
+    content: url(WhiteKing.png);
+}
+
+.white_bishop::before {
+    content: url(WhiteBishop.png);
+}
+
+.white_knight::before {
+    content: url(WhiteKnight.png);
+}
+
+.white_rook::before {
+    content: url(WhiteRook.png);
+}
+
+.black_pawn::before {
+    content: url(BlackPawn.png);
+}
+
+.white_pawn::before {
+    content: url(WhitePawn.png);
+}
+.circle {
+    width: 30%;
+    height: 30%;
+    background-color: brown;
+    /* background-color: rgba(0, 0, 0, 0.15); */
+    border-radius: 50%;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pawnCompo {
+   
+    width: 70px;
+    height: 70px;
+}
